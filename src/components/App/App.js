@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-
+import StarshipList from './StarshipList/StarshipList'
 
 
 
@@ -32,10 +32,9 @@ class App extends Component {
     return (
       <div className="App">
        <h1>STAR WARS API</h1>
-        <ul>
-          {this.state.planetsAPI.map(starship => <li key={starship.name}>The {starship.name}, model: {starship.model} was built by {starship.manufacturer}</li>)}
-
-        </ul>
+        
+         <StarshipList planetsAPI = {this.state.planetsAPI} />
+      
 
       </div>
     );
