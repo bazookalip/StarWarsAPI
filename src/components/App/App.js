@@ -33,7 +33,7 @@ class App extends Component {
       <div className="App">
        <h1>Star Wars API</h1>
         <ul>
-          {this.state.planetsAPI.map(star => <li key={star.name}>The {star.name}, model: {star.model} was built by {star.manufacturer}</li>)}
+          {this.state.planetsAPI.map(star => <li key={star.name}>The spaceship {star.name}, model: {star.model} was built by {star.manufacturer}</li>)}
 
         </ul>
 
