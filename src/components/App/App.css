@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 body {
   background-color: black;
   color: yellow;
+  font-family: 'Space Mono', monospace;
 }
 .App {
   text-align: center;
@@ -38,4 +41,8 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  padding: 5px;
 }

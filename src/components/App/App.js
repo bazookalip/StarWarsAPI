@@ -31,9 +31,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <h1>Star Wars API</h1>
+       <h1>STAR WARS API</h1>
         <ul>
-          {this.state.planetsAPI.map(star => <li key={star.name}>The spaceship {star.name}, model: {star.model} was built by {star.manufacturer}</li>)}
+          {this.state.planetsAPI.map(starship => <li key={starship.name}>The {starship.name}, model: {starship.model} was built by {starship.manufacturer}</li>)}
 
         </ul>
 
